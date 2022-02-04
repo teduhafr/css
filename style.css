@@ -1,0 +1,55 @@
+#div1 {
+    width: 20px;
+    height: 100px;
+    border: 20px;
+    background-color:rgb(17, 131, 177);
+    justify-self: center;
+    
+    
+}
+#div2 {
+    
+ 
+  width: 100px;
+  height: 100px;
+  border-right: 1px solid transparent;
+  border-bottom: 8px solid rgba(40,40,40,1);
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-radius: 50px;
+  transform: rotate(35deg);
+
+}
+
+
+#div6 {
+    width: 90px;
+    height: 20px;
+    border: 20px;
+    background-color:rgb(245, 39, 166);
+    justify-self: center;
+    border-radius: 3px;
+    align-self: end;
+    
+    
+}
+
+#div7 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 6px solid;
+    background-color:transparent;
+    justify-self: left;
+    align-self: end;
+    z-index: 5;
+    margin-bottom: -70px;
+    margin-left: -2px;
+    
+}
+
+#baris1 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-left: 5vw;
+}
