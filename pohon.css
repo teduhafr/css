@@ -1,0 +1,80 @@
+.pohon {
+    height: 300px;
+    width: 290px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -900px;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-name: gerak;
+}
+
+#pohon1 {
+    margin-left: -1400px;
+    position: fixed;
+}
+
+.batang {
+    border-bottom: 250px solid rgb(77, 25, 1);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    width: 30px;
+    margin: auto;
+    margin-top: 50px;
+    z-index: 0;
+}
+
+.daun1 {
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -300px;
+    transform: skew(10deg, 0deg);
+    z-index: -1;
+}
+
+.daun2 {
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -300px;
+    transform: skew(-10deg, 10deg);
+    z-index: -1;
+}
+
+.daun3 {
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -350px;
+    z-index: -1;
+}
+
+.ranting1 {
+    width: 50px;
+    height: 10px;
+    background-color: rgb(77, 25, 1);
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -240px;
+    transform: rotate(20deg);
+}
+
+.ranting2 {
+    width: 50px;
+    height: 10px;
+    background-color: rgb(77, 25, 1);
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -220px;
+    transform: rotate(-20deg);
+}

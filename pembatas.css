@@ -1,0 +1,59 @@
+.pembatas {
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    margin-top: 480px;
+    margin-left: -10px;
+    background-color: red;
+}
+
+.kotakputih {
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: warna1;
+}
+
+.kotakhitam {
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    margin-left: 150px;
+    background-color: black;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: warna2;
+}
+
+@keyframes warna1 {
+    49% {
+        background-color: white;
+    }
+    50% {
+        background-color: black;
+    }
+    99% {
+        background-color: black;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes warna2 {
+    49% {
+        background-color: black;
+    }
+    50% {
+        background-color: white;
+    }
+    99% {
+        background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
