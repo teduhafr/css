@@ -1,0 +1,21 @@
+.bodybawah {
+    width: 570px;
+    height: 120px;
+    background-color: rgb(235, 12, 149);
+    margin-top: -120px;
+    margin-left: 270px;
+    position: absolute;
+    z-index: 9;
+}
+.bodyatas {
+        margin-top: -240px;
+    margin-left: 360px;
+    position: absolute;
+    z-index: 9;
+    border-bottom: 120px solid rgb(235, 12, 149);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+      width: 400px;
+    
+}
