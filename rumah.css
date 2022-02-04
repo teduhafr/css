@@ -1,8 +1,64 @@
 .rumah {
-    height: 300px;
-    width: 250px;
+    height: 200px;
+    width: 290px;
     background-color: blue;
-    position: relative;
-    margin-top: 200px;
-    display: inline-block;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -350px;
+    display: grid;
+    animation-name: gerak;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+#rumah1 {
+    margin-left: 30px;
+}
+
+@keyframes gerak {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 2000px;
+    }
+}
+
+.pintu {
+    height: 150px;
+    width: 80px;
+    background-color: rgb(243, 158, 0);
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.jendela {
+    height: 70px;
+    width: 80px;
+    background-color: rgb(255, 0, 119);
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.jendela:after {
+    content: "";
+    height: 70px;
+    width: 80px;
+    background-color: rgb(255, 0, 119);
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+.atap {
+    width: 0;
+    height: 0;
+    position: fixed;
+    margin-top: -90px;
+    margin-left: -25px;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-bottom: 100px solid red;
 }
