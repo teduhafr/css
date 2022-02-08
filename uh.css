@@ -1,0 +1,60 @@
+#div4 {
+    width: 60px;
+    height: 30px;
+    /* as the half of the width */
+    background-color: transparent;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border: 10px solid black;
+    border-bottom: 15px;
+    transform: rotate(180deg);
+    align-self: end;
+    margin: 0 0 10px 0;
+}
+
+#div4:before {
+    content: "";
+    width: 10px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+#div4:after {
+    content: "";
+    width: 10px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+
+#div5 {
+    width: 15px;
+    height: 110px;
+    background-color: black;
+}
+
+#div5:before {
+    content: "";
+    width: 75px;
+    height: 15px;
+    background-color: black;
+    margin-left: 0px;
+    position: absolute;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+
+#div5:after {
+    content: "";
+    width: 15px;
+    height: 50px;
+    background-color: black;
+    margin-left: 60px;
+    position: absolute;
+    margin-top: 60px;
+}

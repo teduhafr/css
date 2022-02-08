@@ -6,16 +6,84 @@
     margin-left: 270px;
     position: absolute;
     z-index: 9;
+    border-top: 2px solid rgb(70, 16, 0);
+    border-top-left-radius: 18%;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%;
 }
+
 .bodyatas {
-        margin-top: -240px;
-    margin-left: 360px;
-    position: absolute;
-    z-index: 9;
-    border-bottom: 120px solid rgb(235, 12, 149);
-    border-left: 25px solid transparent;
-    border-right: 25px solid transparent;
+    width: 0;
     height: 0;
-      width: 400px;
-    
+    border-bottom: 100px solid rgb(0, 0, 0);
+    border-left: 100px solid transparent;
+    position: absolute;
+    margin-left: 340px;
+    margin-top: -200px;
+}
+
+.bodybelakang {
+    width: 35px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -200px;
+    border-top-right-radius: 100%;
+}
+
+.pilaratas {
+    width: 10px;
+    height: 100px;
+    background-color: rgb(235, 12, 149);
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -200px;
+}
+
+#pilar1 {
+    margin-left: 600px;
+}
+
+#pilar2 {
+    margin-left: 750px;
+}
+
+.jendelamobil {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -200px;
+    opacity: 0.5;
+}
+
+#jendelabelakang {
+    width: 140px;
+    height: 100px;
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    margin-left: 610px;
+    margin-top: -200px;
+    opacity: 0.5;
+}
+
+.pilarbawah {
+    width: 2px;
+    height: 120px;
+    background-color: rgb(68, 1, 42);
+    position: absolute;
+    margin-left: 440px;
+    margin-top: -118px;
+    z-index: 10;
+}
+
+#pilarbawah1 {
+    margin-left: 600px;
+}
+
+#pilarbawah2 {
+    margin-left: 750px;
 }

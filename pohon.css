@@ -7,6 +7,7 @@
     animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-name: gerak;
+    animation-timing-function: linear;
 }
 
 #pohon1 {
@@ -27,7 +28,7 @@
 .daun1 {
     width: 120px;
     height: 120px;
-    background-color: aquamarine;
+    background-color: rgb(4, 167, 113);
     border-radius: 50%;
     position: absolute;
     margin-left: 40px;
@@ -39,7 +40,7 @@
 .daun2 {
     width: 120px;
     height: 120px;
-    background-color: aquamarine;
+    background-color: rgb(4, 167, 113);
     border-radius: 50%;
     position: absolute;
     margin-left: 130px;
@@ -51,7 +52,7 @@
 .daun3 {
     width: 120px;
     height: 120px;
-    background-color: aquamarine;
+    background-color: rgb(4, 167, 113);
     border-radius: 50%;
     position: absolute;
     margin-left: 90px;
