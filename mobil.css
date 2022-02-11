@@ -87,3 +87,28 @@
 #pilarbawah2 {
     margin-left: 750px;
 }
+
+.mobilutama {
+    animation-duration: 1s;
+    animation-name: naikturun;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes naikturun {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(2px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    75% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

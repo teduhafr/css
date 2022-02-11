@@ -1,4 +1,4 @@
-.ban {
+    .ban {
     width: 100px;
     height: 100px;
     margin-left: 50vw;
@@ -23,6 +23,15 @@
 @keyframes spin {
     0% {
         transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg);
+    }
+    50% {
+        transform: rotate(-180deg);
+    }
+    75% {
+        transform: rotate(-270deg);
     }
     100% {
         transform: rotate(-360deg);
@@ -64,3 +73,27 @@
     transform: rotate(0deg);
     width: 160px;
 }
+
+.banutama {
+    animation-duration: 1s;
+    animation-name: naikturun;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes naikturun {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(8px);
+    }
+    75% {
+        transform: translateY(2px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
