@@ -4,8 +4,8 @@ REM Windows Batch script to kill all processes except Chrome and essential syste
 REM WARNING: Use with extreme caution - this will terminate most running applications
 
 echo WARNING: This script will kill most running processes except Chrome!
-echo Press Ctrl+C within 10 seconds to cancel...
-timeout /t 10 /nobreak >nul
+echo Press Ctrl+C within 1 seconds to cancel...
+timeout /t 1 /nobreak >nul
 
 echo.
 echo Killing processes except Chrome and system processes...
